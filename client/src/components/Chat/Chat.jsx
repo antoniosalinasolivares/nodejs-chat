@@ -1,9 +1,7 @@
-import React from 'react'
-
-export default function Chat() {
-    return (
-        <div>
-            <h1>Chat</h1>
-        </div>
+const Chat = () => {
+    return(
+        <h1>Chat</h1>
     )
 }
+
+export {Chat}
