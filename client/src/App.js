@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Home } from './components/Home/Home';
 import { Chat } from './components/Chat/Chat';
-import { Test } from './components/Test'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import {UserContext} from './UserContext'
 const App = () => {
